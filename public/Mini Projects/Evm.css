@@ -1,0 +1,93 @@
+.container
+{
+  width:250px;
+  height:500px;
+  background-color: black;
+  border-radius:25px;
+  position: absolute;
+  top:10px;
+  left:55px;
+  z-index:1;
+  display:flex;
+  flex-direction: column;
+  gap:10px
+}
+.name
+{
+  color:white;
+  position: relative;
+  left:15px;
+}
+.image
+{
+  width:80px;
+  height:80px;
+  position: relative;
+  left:20px;
+  top:5px;
+  border-radius:15px;
+}
+.box
+{
+  width:250px;
+  height:90px;
+  border-radius:25px;
+  background-color: green;
+}
+.light
+{
+  width:30px;
+  height:30px;
+  border-radius: 50px;
+  background-color: white;
+  position: relative;
+  top:-55px;
+  left:115px;
+}
+.btn
+{
+  position: relative;
+  top:-85px;
+  left:170px;
+  width:70px;
+  height:30px;
+  font-weight: bolder;
+  font-size:20px;
+}
+.box-1
+{
+  width:250px;
+  height:150px;
+  background-color:black;
+  position: absolute;
+  top:530px;
+  left:50px;
+  border-radius:25px;
+}
+.heading
+{
+  color:white;
+  position: absolute;
+  top:-10px;
+  left:70px;
+  font-size:20px;
+  font-weight:bolder;
+}
+.ok
+{
+  width:70px;
+  height:30px;
+  font-weight:bolder;
+  font-size:20px;
+  position: absolute;
+  top:120px;
+  left:95px;
+}
+.sel_img
+{ width:80px;
+  height:80px;
+  position:absolute;
+  left:90px;
+  top:30px;
+  border-radius:15px;
+}
