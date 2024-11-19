@@ -1,0 +1,49 @@
+.container
+{
+  width:300px;
+  height:0px;
+  position: absolute;
+  top:80px;
+  left:0px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  gap:8px;
+}
+.box
+{
+  width:300px;
+  height:350px;
+  background-color:dodgerblue;
+  position: absolute;
+  top:150px;
+  left:30px;
+  border-radius:15px;
+}
+#btn{
+  width:65px;
+  height:65px;
+  color:white;
+  background-color: black;
+  font-size:30px;
+  font-weight:bolder;
+  border:2px solid black;
+}
+.image{
+  width:50px;
+  height:50px;
+}
+#mv{
+  position:absolute;
+  top:380px;
+  left:50px;
+  z-index:1;
+}
+#pf{
+  position:absolute;
+  top:430px;
+  left:80px;
+  z-index:1;
+}

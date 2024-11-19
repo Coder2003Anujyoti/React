@@ -1,0 +1,42 @@
+import { useReducer} from "react";
+import './App.css';
+import React from "react";
+const cl=[{
+  color:"aqua"
+}];
+const reducer=(state,action)=>{
+  
+  if(action.id==true)
+  {
+ return state.map((ele)=>{
+   return{...ele,color:"Hotpink"};
+ });
+}
+  if(action.id==false)
+  {
+ return state.map((ele)=>{
+   return{...ele,color:"aqua"};
+ });
+}
+};
+const App=()=>{
+  const [colour,dispatch]=useReducer(reducer,cl);
+  const toggle=(e)=>{
+    e.color=="aqua"?
+    dispatch({id:true}):dispatch({id:false});
+  };
+  return(
+    <>
+    {colour.map((col)=>{
+    return(
+     <>
+  <div style={{backgroundColor:`${col.color}`}} className="box">{col.color}</div>
+  <button onClick={()=>toggle(col)} className="btn">Toggle</button>
+  </>
+   )
+    })}
+    </>
+    
+    );
+};
+export default App;

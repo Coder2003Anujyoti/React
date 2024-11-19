@@ -1,0 +1,46 @@
+#contain{
+  width:10px;
+  height:10px;
+  border-radius: 100px;
+  background-color:blue;
+}
+#contaier{
+  display:flex;
+  flex-direction:row;
+  gap:2px;
+  position:absolute;
+  top:330px;
+  left:220px;
+  z-index:1;
+  opacity:0.5;
+}
+#containers{
+  width:500px;
+  height:993px;
+background-color: green;
+}
+#images{
+  width:500px;
+  height:350px;
+  position:relative;
+  top:0px;
+  left:0px;
+  opacity:1;
+}
+#box{
+  width:250px;
+  height:250px;
+}
+#btn{
+  width:250px;
+  height:50px;
+  background-color:black;
+  color:white;
+  border-radius:25px;
+  border:2px solid black;
+  font-size:20px;
+  font-weight:bolder;
+  position: absolute;
+  top:700px;
+  left:120px;
+}

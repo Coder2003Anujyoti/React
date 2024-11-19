@@ -29,15 +29,13 @@ const handle=(id)=>{
  
     <div id="rest">
        <div id="container">
-      <div id="heading"> <h1 id="op">Welcome to Menu Bar</h1></div>
-    <div id="button-container">
+         <h1 id="op">Welcome to Menu Bar</h1>
       {btn.map((item)=>{
   return <button style={{backgroundColor:`${(toggle==item)?"#00FF00":"black"}`,
     color:`${(toggle==item)?"black":"white"}`
   }}
   onClick={()=>handle(item)} id="bn">{item}</button>
       })}
-      </div>
       </div>
       <div id="image-containers">
       {items.map((item)=>{

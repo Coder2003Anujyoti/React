@@ -1,0 +1,58 @@
+const Item=[{
+  id:0,
+  name:"Tmc",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Tmc.png"
+},{
+  id:1,
+  name:"Bjp",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Bjp.png"
+},{
+  id:2,
+  name:"Cong",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Cong.png"
+},{
+  id:3,
+  name:"Cpim",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Cpim.png"
+},{
+  id:4,
+  name:"Cong",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Cong.png"
+},{
+  id:5,
+  name:"Tmc",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Tmc.png"
+},{
+  id:6,
+  name:"Cpim",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Cpim.png"
+},{
+  id:7,
+  name:"Bjp",
+  text:"?",
+  toggle:false,
+  disable:false,
+  image:"images/Bjp.png"
+}];
+export default Item;
