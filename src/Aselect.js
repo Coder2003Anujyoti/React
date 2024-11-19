@@ -123,9 +123,11 @@ const Aselect=()=>{
   return(<>
     { ok===false && rule==false && about==false  && comment==false &&
     <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
  <h1 id="ang"><marquee 
                  direction="left">Vivo Kabaddi Game</marquee></h1>
-  <img src="images/Anu.jpg" id="g"></img>
+  <img src="Image/Anu.jpg" id="g"></img>
   {start===true &&
   <>
     <div id="select-contain">

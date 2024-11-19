@@ -42,7 +42,7 @@ const handle=(id)=>{
         return(
         <>
           <div id="image-container">
-   <img src={item.image} id="image" />
+   <img src={item.image} id="image" alt="" />
             <h3 id="name">{item.name}</h3>
           </div>
         </>
