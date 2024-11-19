@@ -1,0 +1,78 @@
+.container
+{
+  position: absolute;
+  top:200px;
+  left:30px;
+  display: flex;
+  gap:30px;
+}
+.rock-btn
+{ width:80px;
+height:80px;
+  border-radius:50px;
+  font-size:15px;
+  font-weight:bolder;
+  background-color:black;
+  color:white;
+  border:5px solid black;
+}
+.paper-btn
+{ width:80px;
+height:80px;
+  border-radius:50px;
+  font-size:15px;
+  font-weight:bolder;
+  background-color:black;
+  color:white;
+  border:5px solid black;
+}
+.scissors-btn
+{ width:80px;
+height:80px;
+  border-radius:50px;
+  font-size:15px;
+  font-weight:bolder;
+  background-color:black;
+  color:white;
+  border:5px solid black;
+}
+.yt
+{
+  position: absolute;
+  left:10px;
+  top:105px;
+  font-size:25px;
+  font-weight: bolder;
+}
+.ct 
+{ 
+  position: absolute;
+  left:5px;
+  top:175px;
+  font-size:25px;
+  font-weight: bolder;
+  
+}
+.result
+{
+  
+  position: absolute;
+  left:5px;
+  top:250px;
+  font-size:25px;
+  font-weight: bolder;
+}
+.player-score
+{ position: absolute;
+  left:5px;
+  top:-100px;
+  font-size:25px;
+  font-weight: bolder;
+}
+.computer-score
+{ position: absolute;
+  left:150px;
+  top:-100px;
+  font-size:25px;
+  font-weight: bolder;
+}
