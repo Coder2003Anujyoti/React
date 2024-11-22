@@ -165,8 +165,6 @@ const Aselect=()=>{
 
 {ok===true && rule==false && about==false && comment==false && <Sel option={option} pvalue={pvalue} cvalue={cvalue} pname={pname} cname={cname}/>}
 {start==false && rule===false && about==false && comment==false && <button id="sgame" onClick={()=>setStart(true)}>Start Game</button>}
-{ok==false && rule==false && about==true && comment==false &&
-<> <Website about={about} filter={filter}/></>}
 {ok==false && rule==true && about==false && comment===false &&
 <>
   <h2 id="kab">Rules of Kabaddi</h2>
@@ -191,8 +189,7 @@ const Aselect=()=>{
 
 </>}
 
-{start==false && rule==false && about==false && comment===true && <Comment filters={filters} />}
-    </>
+  </>
     )
 }
 export default Aselect;
