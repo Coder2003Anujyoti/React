@@ -618,3 +618,55 @@ body{
   top:450px;
   left:250px;
 }
+@media (min-width:650px){
+  #ang{
+  position:absolute;
+  left:300px;
+  top:680px;
+  text-decoration:underline;
+  text-underline-offset:10px;
+  color:white;
+  font-size:60px;
+}
+body{
+  overflow-x:hidden;
+}
+#g{
+  width:1040px;
+  height:635px;
+  position:absolute;
+  top:0px;
+}
+#sgame{
+  width:350px;
+  height:100px;
+  border-radius:25px;
+  position: absolute;
+  background-color:black;
+  color:white;
+  top:950px;
+  left:350px;
+  border:2px solid black;
+  font-size:45px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bolder;
+}
+#win{
+  width:350px;
+  height:100px;
+  border-radius:25px;
+  position: absolute;
+  background-color:black;
+  color:white;
+  top:1150px;
+  left:350px;
+  border:2px solid black;
+  font-size:45px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bolder;
+}
+}
