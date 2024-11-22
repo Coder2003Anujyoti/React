@@ -101,10 +101,11 @@
  color:white;
 }
 #g{
-  width:360px;
+  width:560px;
   height:235px;
   position:absolute;
   top:0px;
+  overflow-x:hidden;
 }
 #sel{
   position:absolute;
