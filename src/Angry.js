@@ -375,7 +375,7 @@ buttons.map((i)=>{
  </h2>
  <button id="restart" onClick={restart}>Restart</button>
  <button id="player-score" onClick={()=>setPback(!pback)}>{pname}(You) Details</button>
- <button id="computer-score" onClick={()=>setCback(!cback)}>{cname}(You) Details</button>
+ <button id="computer-score" onClick={()=>setCback(!cback)}>{cname}(Com) Details</button>
  </>
 }
 {((co==option) || (birds.length==0) ) &&
