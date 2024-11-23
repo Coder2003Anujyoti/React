@@ -5,6 +5,7 @@ import Ben from "./Ben.js";
 import Pok from "./Pok.js";
 import Power from "./Power.js";
 import Aselect from "./Aselect.js";
+import Sel from './Sel.js';
 import "./Angry.css";
 const buttons=[1,2,3,4,5,6];
 const Angry=({option,pteam,cteam,pname,cname,psteam,csteam,pvalue,cvalue})=>{
