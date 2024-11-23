@@ -1,4 +1,4 @@
-@media (max-width:649px){
+
 #ang{
   width:410px;
   position:relative;
@@ -626,7 +626,6 @@ body{
   top:450px;
   left:180px;
 }
-}
 @media (min-width:650px){
   #ppli{
   width:230px;
@@ -876,7 +875,7 @@ body{
 }
 body{
   background-color: aqua;
- overflow-x:hidden;
+ overflow:hidden;
 }
 #g{
   width:1100px;
