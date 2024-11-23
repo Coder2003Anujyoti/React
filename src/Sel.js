@@ -5,8 +5,6 @@ import Ben from "./Ben.js";
 import Pok from "./Pok.js";
 import Power from "./Power.js";
 import "./Angry.css";
-import "./Screen-s.css";
-import "./Screen-m.css";
 import Angry from './Angry.js';
 import Aselect from './Aselect.js';
 const Sel=({option,pvalue,cvalue,pname,cname})=>{
