@@ -5,8 +5,6 @@ import Ben from "./Ben.js";
 import Pok from "./Pok.js";
 import Power from "./Power.js";
 import "./Angry.css";
-import "./Screen-s.css";
-import "./Screen-m.css";
 import Angry from './Angry.js';
 import Sel from './Sel.js';
 const item=[{name:"Pokes",disable:false},{name:"Piges",disable:false},{name:"Birds",disable:false},{name:"Power",disable:false},{name:"Alien",disable:false}];
