@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import MenuApi from './MenuApi.js';
-import './Rest.css';
+import './Design.css';
 
 const array=[...new Set(MenuApi.map((i)=>{return i.category;})),"All"];
 

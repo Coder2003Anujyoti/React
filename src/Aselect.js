@@ -1,12 +1,10 @@
 import React,{useState,useEffect} from 'react';
-import Comment from './Comment.js';
 import Birds from "./Birds.js";
 import Pig from "./Pig.js";
 import Ben from "./Ben.js";
 import Pok from "./Pok.js";
 import Power from "./Power.js";
-import "./Angry.css";
-import Website from "./Website.js";
+import "./Angries.css";
 import Angry from './Angry.js';
 import Sel from './Sel.js';
 const item=[{name:"Pokes",disable:false},{name:"Piges",disable:false},{name:"Birds",disable:false},{name:"Power",disable:false},{name:"Alien",disable:false}];
@@ -121,20 +119,18 @@ const Aselect=()=>{
   }
   
   return(<>
+    <meta name="viewport" content= "width=device-width, user-scalable=no" />
     { ok===false && rule==false && about==false  && comment==false &&
     <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
  <h1 id="ang"><marquee 
                  direction="left">Vivo Kabaddi Game</marquee></h1>
-  <img src="Image/Anu.jpg" id="g"></img>
+  <img src="images/Anu.jpg" id="g"></img>
   {start===true &&
   <>
     <div id="select-contain">
   <h2 id="r">Select Points:</h2>
   <select id="sel" onChange={(e)=>toss(e)}>
     <option disabled={opdisable}>Select</option>
-      <option value="5">5</option>
       <option value="10">10</option>
       <option value="15">15</option>
       <option value="20">20</option>
@@ -167,8 +163,8 @@ const Aselect=()=>{
 
 {ok===true && rule==false && about==false && comment==false && <Sel option={option} pvalue={pvalue} cvalue={cvalue} pname={pname} cname={cname}/>}
 {start==false && rule===false && about==false && comment==false && <button id="sgame" onClick={()=>setStart(true)}>Start Game</button>}
-{ok==false && rule==false && about==true && comment==false &&
-<> <Website about={about} filter={filter}/></>}
+
+
 {ok==false && rule==true && about==false && comment===false &&
 <>
   <h2 id="kab">Rules of Kabaddi</h2>
@@ -193,7 +189,6 @@ const Aselect=()=>{
 
 </>}
 
-{start==false && rule==false && about==false && comment===true && <Comment filters={filters} />}
     </>
     )
 }

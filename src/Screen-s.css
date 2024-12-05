@@ -1,6 +1,6 @@
 @media (max-width:649px){
 #ang{
-  width:410px;
+  width:115vw;
   position:relative;
   left:0px;
   top:255px;
@@ -20,7 +20,7 @@
   font-weight:bolder;
   position:absolute;
   top:0px;
-  left:357px;
+  left:96vw;
 }
 #up{
   background-color:black;
@@ -105,7 +105,7 @@
  color:white;
 }
 #g{
-  width:410px;
+  width:115vw;
   height:235px;
   position:absolute;
   top:0px;
@@ -130,10 +130,11 @@
   height:80px;
   position:relative;
   top:0px;
+
 }
 body{
   background-color:dodgerblue;
-  overflow-x:hidden;
+  overflow:hidden;
 }
 #cli{
   width:60px;
@@ -481,8 +482,8 @@ body{
   position: absolute;
   background-color:black;
   color:white;
-  top:400px;
-  left:150px;
+  top:110vw;
+  left:35vw;
   border:2px solid black;
   font-size:20px;
   display:flex;
@@ -502,8 +503,8 @@ body{
   position: absolute;
   background-color:black;
   color:white;
-  top:450px;
-  left:150px;
+  top:95vw;
+  left:35vw;
   border:2px solid black;
   font-size:19px;
   display:flex;
@@ -595,9 +596,9 @@ body{
   background-color:black;
   color:white;
   font-weight:bolder;
-  position:absolute;
-  top:0px;
-  left:335px;
+ position:absolute;
+ top:0px;
+ left:94vw;
 }
 #player-score{
   width:150px;
@@ -625,506 +626,4 @@ body{
   top:450px;
   left:180px;
 }
-}
-@media (min-width:1000px)
-{
-  body{
-    background-color:dodgerblue;
-    overflow: hidden;
-  }
-  #g{
-    width:640px;
-    height:645px;
-    position:absolute;
-    top:0px;
-    left:0px;
-    opacity:1;
-    
-  }
-  #ang{
-    position:absolute;
-    left:650px;
-    top:0px;
-    text-decoration:underline;
-    text-underline-offset:10px;
-    color:white;
-    font-size:60px;
-    z-index: 1;
-  }
-  #sgame{
-    width:350px;
-    height:100px;
-    border-radius:25px;
-    position: absolute;
-    background-color:white;
-    color:black;
-    top:350px;
-    left:850px;
-    border:2px solid white;
-    font-size:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bolder;
-    z-index:1;
-  }
-  #win{
-    width:350px;
-    height:100px;
-    border-radius:25px;
-    position: absolute;
-    background-color:white;
-    color:black;
-    top:200px;
-    left:850px;
-    border:2px solid white;
-    font-size:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bolder;
-  }
-  #kab{
-    color:black;
-    font-weight:bolder;
-    position: absolute;
-    left:455px;
-    top:-10px;
-    text-decoration:underline;
-    font-size:45px;
-  }
-  #list{
-    font-weight:bolder;
-    font-size:20px;
-    position:absolute;
-    top:90px;
-    left:0px;
-    color:black;
-  }
-  #pback2{
-    width:50px;
-    height:50px;
-    border-radius:100px;
-    font-size:30px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:570px;
-    left:600px;
-  }
-  #sel{
-    position:absolute;
-    top:277px;
-    left:1050px;
-    width:150px;
-    height:50px;
-    font-size:25px;
-    font-weight:bolder;
-    border-radius:25px;
-    color:white;
-    background-color: black;
-    border:2px solid black;
-    outline:none;
-  }
-  #hh{
-    position:absolute;
-    top:477px;
-    left:1050px;
-    width:150px;
-    height:50px;
-    font-size:25px;
-    font-weight:bolder;
-    border-radius:25px;
-    color:white;
-    background-color: black;
-    border:2px solid black;
-    outline:none;
-  }
-  #f{
-    position:absolute;
-    top:379px;
-    left:1050px;
-    width:150px;
-    height:50px;
-    font-size:25px;
-    font-weight:bolder;
-    border-radius:25px;
-    color:white;
-    background-color: black;
-    border:2px solid black;
-    outline: none;
-  }
-  #re{
-    width:345px;
-    position:absolute;
-    top:340px;
-    left:780px;
-   font-weight:bolder;
-   color:white;
-   font-size: 40px;
-  }
-  #rp{
-    width:345px;
-    position:absolute;
-    top:439px;
-    left:710px;
-   font-weight:bolder;
-   color:white;
-   font-size: 40px;
-  }
-  #r{
-    width: 345px;
-    position:absolute;
-    top:239px;
-    left:780px;
-   font-weight:bolder;
-   color:white;
-   font-size:40px;
-  }
-  #bn{
-    width:150px;
-    height:50px;
-    background-color: black;
-    color:white;
-    border-radius:25px;
-    border:2px solid black;
-    font-size:25px;
-    font-weight:bolder;
-    position:absolute;
-    top:585px;
-    left:950px;
-  }
-  #anuj{
-    color:black;
-    font-size:45px;
-    text-decoration:underline;
-    text-underline-offset:10px;
-    position:absolute;
-    left:455px;
-  }
-  #plaer{
-    display:flex;
-    flex-direction:row;
-    gap:20px;
-    flex-wrap:wrap;
-    position:absolute;
-    top:120px;
-    left:60px;
-  }
-  #lis{
-    width:120px;
-    height:140px;
-    position:relative;
-    top:0px;
-  }
-  #pic{
-    width:230px;
-    height:250px;
-    position:absolute;
-    left:890px;
-    top:300px;
-    background-color:green;
-  }
-  #b{
-    width:100px;
-    height:30px;
-    color:white;
-    background-color:black;
-    border:2px solid black;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:570px;
-    left:1020px;
-  }
-  #s{
-    width:100px;
-    height:30px;
-    color:white;
-    background-color:black;
-    border:2px solid black;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:570px;
-    left:900px;
-  }
-  #computer{
-    display:flex;
-    flex-direction:row;
-    gap:25px;
-    flex-wrap:wrap;
-    position:absolute;
-    top:520px;
-    left:60px;
-  }
-  #pli{
-    width:100px;
-    height:120px;
-    position:relative;
-    top:20px;
-  
-  }
-  #cli{
-    width:100px;
-    height:120px;
-    position:relative;
-    top:-20px;
-  }
-  #player{
-    display:flex;
-    flex-direction: row;
-    gap:25px;
-    flex-wrap:wrap;
-    position:absolute;
-    top:0px;
-    left:60px;
-  }
-  #toss{
-    width:155px;
-    height:155px;
-    border-radius:100%;
-    position: absolute;
-    background-color:black;
-    color:white;
-    top:220px;
-    left:600px;
-    border:2px solid black;
-    font-size:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bolder;
-  }
-  #omp{
-    position: absolute;
-    left:800px;
-    top:130px;
-    color:white;
-    font-size:25px;
-    font-weight:bolder;
-  }
-  #ay{
-    position: absolute;
-    left:350px;
-    top:130px;
-    color:white;
-  }
-  #ppli{
-    width:130px;
-    height:150px;
-    position:absolute;
-    top:205px;
-    left:350px;
-  }
-  #cpli{
-    width:130px;
-    height:150px;
-    position:absolute;
-    top:205px;
-    left:800px;
-   
-  }
-  #head{
-    font-family:cursive,serif;
-    font-weight:bolder;
-    position:absolute;
-    top:220px;
-    left:600px;
-    color:white;
-  }
-  #est{
-    position: absolute;
-    left:605px;
-    top:160px;
-    font-size:35px;
-    color:white;
-  }
-  #fet{
-    position:absolute;
-    top:250px;
-    left:540px;
-    font-weight:bolder;
-    font-size:30px;
-    color:white;
-  }
-  #ret{
-    position:absolute;
-    top:250px;
-    left:560px;
-    font-weight:bolder;
-    font-size:30px;
-    color:white;
-  }
-  #play-pt{
-    position:absolute;
-    top:330px;
-    left:400px;
-    font-size:35px;
-    color:white;
-    font-weight:bolder;
-  }
-  #comp-pt{
-    position:absolute;
-    top:330px;
-    left:850px;
-    font-size:35px;
-    font-weight:bolder;
-    color:white;
-  }
-  #ppo{
-    position:absolute;
-    top:350px;
-    left:350px;
-    font-size:30px;
-    font-weight:bolder;
-    color:white;
-  }
-  #cpo{
-    position:absolute;
-    top:350px;
-    left:800px;
-    font-size:30px;
-    font-weight:bolder;
-    color:white;
-  }
-  #subs{
-    width:150px;
-    height:30px;
-    color:white;
-    background-color:black;
-    border:2px solid black;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:400px;
-    left:550px;
-  }
-  #rd{
-    position:absolute;
-    top:400px;
-    left:460px;
-    display:flex;
-    gap:4px;
-    flex-direction:row;
-  }
-  #but{
-    width:55px;
-    height:55px;
-    border-radius:100px;
-    font-size:30px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-  }
-  #psubs{
-    width:400px;
-    height:280px;
-    display:flex;
-    flex-direction: row;
-    gap:30px;
-    justify-content: center;
-    align-items:center;
-    flex-wrap:wrap;
-    position:absolute;
-    top:150px;
-    left:435px;
-    background-color:black;
-    z-index:1;
-    border-radius:25px;
-  }
-  #psubsh{
-    color:white;
-    position:absolute;
-    top:20px;
-    left:97px;
-    z-index:1;
-  }
-  #ssubs{
-    width:120px;
-    height:30px;
-    color:black;
-    background-color:white;
-    border:2px solid white;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:230px;
-    left:130px;
-  }
-  #restart{
-    width:100px;
-    height:30px;
-    position:absolute;
-    top:340px;
-    left:570px;
-    border-radius:25px;
-    background-color:black;
-    color:white;
-    font-size:20px;
-    font-weight:bolder;
-    border:2px solid black;
-  }
-  #player-score{
-    width:250px;
-    height:30px;
-    border-radius:25px;
-    font-size:15px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:390px;
-    left:500px;
-  }
-  #computer-score{
-    width:250px;
-    height:30px;
-    border-radius:25px;
-    font-size:15px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:430px;
-    left:500px;
-  }
-  #claer{
-    height:350px;
-    width:560px;
-     background-color:black;
-     color:white;
-     display:flex;
-     justify-content:center;
-     flex-direction:row;
-     gap:10px;
-     flex-wrap:wrap;
-     position:absolute;
-     top:140px;
-     left:360px;
-     border-radius:0px;
-     border:2px solid black;
-   }
-   #pback{
-    width:50px;
-    height:50px;
-    border-radius:100px;
-    font-size:30px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:540px;
-    left:600px;
-  }
 }

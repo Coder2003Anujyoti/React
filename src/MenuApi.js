@@ -1,19 +1,19 @@
 
 const MenuApi=[{
   id:0,
-  image:"/images/vegthali.jpg",
+  image:"images/vegthali.jpg",
   category:"Lunch",
   name:"Veg Thali",
   color:"white",
   background:"black"
 },{id:1,
-  image:"images/Lifo.jpg",
+  image:"images/sweet.jpg",
   category:"Lunch",
   name:"Sweet",
   color:"white",
   background:"black"
 },{id:2,
-  image:"/images/allupakoida.jpg",
+  image:"images/allupakoida.jpg",
   category:"Snacks",
   name:"Allu Pakoda",color:"white",
   background:"black"},{id:3,

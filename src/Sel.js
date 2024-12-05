@@ -4,7 +4,7 @@ import Pig from "./Pig.js";
 import Ben from "./Ben.js";
 import Pok from "./Pok.js";
 import Power from "./Power.js";
-import "./Angry.css";
+import "./Angries.css";
 import Angry from './Angry.js';
 import Aselect from './Aselect.js';
 const Sel=({option,pvalue,cvalue,pname,cname})=>{
@@ -45,6 +45,7 @@ const Sel=({option,pvalue,cvalue,pname,cname})=>{
     setClick(false);
   }
   return(<>
+       <meta name="viewport" content= "width=device-width, user-scalable=no" />
     {count<10 && 
     <>
  <h2 id="anuj">Select {10-count} players of {pname} </h2>

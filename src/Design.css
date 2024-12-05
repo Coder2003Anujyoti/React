@@ -1,0 +1,160 @@
+@media (max-width:740px){
+#container{
+  width:505px;
+  height:150px;
+  display: flex;
+  flex-wrap:none;
+  gap:3px;
+  position: absolute;
+  left:0px;
+  top:0px;
+  background-color:orange;
+}
+#rest{
+  width:505px;
+  height:20px;
+  background-color: green;
+}
+body{
+  background-color:green;
+}
+#op{
+  position:absolute;
+  left:75px;
+  top:-5px;
+  font-weight:bolder;
+  font-size:35px;
+  font-style:sans-serif;
+  text-decoration:underline;
+}
+#bn{
+  position:relative;
+  top:80px;
+  left:10px;
+  width:120px;
+  height:50px;
+  border-radius:25px;
+  font-size:20px;
+  font-weight:bolder;
+  border:2px solid black;
+  color:white;
+  background-color:black;
+}
+
+#image-containers{
+  width:505px;
+  height:0px;
+  position: absolute;
+  top:150px;
+  left:0px;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  gap:20px
+}
+#image-container{
+  width:230px;
+  height:350px;
+  position: relative;
+  left:5px;
+  top:15px;
+  background-color:black;
+  color:white;
+  border-radius:15px;
+}
+#name{
+  position:relative;
+  top:50px;
+  left:20px;
+  font-size:25px;
+}
+#image{
+  width:200px;
+  height:200px;
+  position:relative;
+  top:50px;
+  left:15px;
+  border-radius:15px;
+}
+}
+@media (min-width:840px){
+  
+  
+  #container{
+  width:984px;
+  height:250px;
+  display: flex;
+  flex-wrap:none;
+  gap:15px;
+  position: absolute;
+  left:0px;
+  top:0px;
+  background-color:orange;
+}
+#rest{
+  width:505px;
+  height:20px;
+  background-color: green;
+}
+body{
+  background-color:green;
+}
+#op{
+  position:absolute;
+  left:175px;
+  top:-14px;
+  font-weight:bolder;
+  font-size:65px;
+  font-style:sans-serif;
+  text-decoration:underline;
+}
+#bn{
+  position:relative;
+  top:150px;
+  left:30px;
+  width:220px;
+  height:50px;
+  border-radius:25px;
+  font-size:30px;
+  font-weight:bolder;
+  border:2px solid black;
+  color:white;
+  background-color:black;
+}
+
+#image-containers{
+  width:900px;
+  height:0px;
+  position: absolute;
+  top:290px;
+  left:40px;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  gap:20px
+}
+#image-container{
+  width:430px;
+  height:550px;
+  position: relative;
+  left:5px;
+  top:15px;
+  background-color:black;
+  color:white;
+  border-radius:15px;
+}
+#name{
+  position:relative;
+  top:5px;
+  left:60px;
+  font-size:45px;
+}
+#image{
+  width:430px;
+  height:400px;
+  position:relative;
+  top:0px;
+  left:0px;
+  border-radius:15px;
+}
+}

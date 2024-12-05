@@ -1,0 +1,499 @@
+@media (min-width:650px){
+  #ppli{
+  width:230px;
+  height:250px;
+  position:absolute;
+  top:600px;
+  left:130px;
+}
+#cpli{
+  width:230px;
+  height:250px;
+  position:absolute;
+  top:600px;
+  left:600px;
+}
+  #omp{
+  position: absolute;
+  font-size:35px;
+  left:615px;
+  top:500px;
+  color:black;
+}
+#ay{
+  position: absolute;
+  font-size:35px;
+  left:150px;
+  top:500px;
+  color:black;
+}
+  #ang{
+  width:1050px;
+  position:absolute;
+  left:0px;
+  top:680px;
+  text-decoration:underline;
+  text-underline-offset:10px;
+  color:black;
+  font-size:60px;
+}
+#rd{
+  position:absolute;
+  top:1020px;
+  left:160px;
+  display:flex;
+  gap:20px;
+  flex-direction:row;
+}
+#head{
+  font-weight:bolder;
+  font-size:45px;
+  position:absolute;
+  top:700px;
+  left:450px;
+  color:black;
+}
+#play-pt{
+  position:absolute;
+  top:820px;
+  left:230px;
+  font-size:50px;
+  color:black;
+  font-weight:bolder;
+}
+#comp-pt{
+  position:absolute;
+  top:820px;
+  left:700px;
+  font-size:50px;
+  font-weight:bolder;
+  color:black;
+}
+#fet{
+  position:absolute;
+  top:750px;
+  left:400px;
+  font-weight:bolder;
+  font-size:30px;
+  color:black;
+}
+#ret{
+  position:absolute;
+  top:750px;
+  left:425px;
+  font-weight:bolder;
+  font-size:30px;
+  color:black;
+}
+#est{
+  position: absolute;
+  left:455px;
+  top:600px;
+  font-size:25px;
+  font-size:40px;
+  color:black;
+}
+#but{
+  width:95px;
+  height:95px;
+  border-radius:100px;
+  font-size:60px;
+  border:2px solid black;
+  background-color:black;
+  color:white;
+  font-weight:bolder;
+}
+#ppo{
+  position:absolute;
+  top:880px;
+  left:180px;
+  font-size:35px;
+  font-weight:bolder;
+  color:black;
+}
+#cpo{
+  position:absolute;
+  top:880px;
+  left:645px;
+  font-size:35px;
+  font-weight:bolder;
+  color:black;
+}
+#subs{
+  width:250px;
+  height:50px;
+  color:white;
+  background-color:black;
+  border:2px solid black;
+  border-radius:25px;
+  font-size:30px;
+  font-weight:bolder;
+  position:absolute;
+  top:1010px;
+  left:350px;
+}
+#psubs{
+  width:400px;
+  height:400px;
+  display:flex;
+  flex-direction: row;
+  gap:30px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  position:absolute;
+  top:550px;
+  left:255px;
+  background-color:black;
+  z-index:1;
+  border-radius:25px;
+}
+#psubs img{
+  width:130px;
+  height:150px;
+}
+#psubsh{
+  color:white;
+  position:absolute;
+  top:0px;
+  font-size: 36px;
+  left:67px;
+  z-index:1;
+}
+#ssubs{
+  width:200px;
+  height:50px;
+  color:black;
+  background-color:white;
+  border:2px solid white;
+  border-radius:25px;
+  font-size:30px;
+  font-weight:bolder;
+  position:absolute;
+  top:310px;
+  left:100px;
+}
+#restart{
+  width:250px;
+  height:50px;
+  position:absolute;
+  top:1010px;
+  left:350px;
+  border-radius:25px;
+  background-color:black;
+  color:white;
+  font-size:35px;
+  font-weight:bolder;
+  border:2px solid black;
+}
+#player-score{
+  width:250px;
+  height:50px;
+  border-radius:25px;
+  font-size:25px;
+  border:2px solid black;
+  background-color:black;
+  color:white;
+  font-weight:bolder;
+  position:absolute;
+  top:1100px;
+  left:230px;
+}
+#computer-score{
+  width:250px;
+  height:50px;
+  border-radius:25px;
+  font-size:25px;
+  border:2px solid black;
+  background-color:black;
+  color:white;
+  font-weight:bolder;
+  position:absolute;
+  top:1100px;
+  left:500px;
+}
+#claer
+{ width:805px;
+ height:505px;
+  background-color:black;
+  color:white;
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+  gap:5px;
+  flex-wrap:wrap;
+  position:absolute;
+  top:500px;
+  left:100px;
+  border-radius:0px;
+  border:2px solid black;
+}
+#pback{
+  width:90px;
+  height:90px;
+  border-radius:100px;
+  font-size:60px;
+  border:2px solid black;
+  background-color:black;
+  color:white;
+  font-weight:bolder;
+  position:absolute;
+  top:1200px;
+  left:435px;
+}
+#claer img{
+  width:130px;
+  height:150px;
+}
+body{
+  background-color: aqua;
+ overflow:hidden;
+}
+#g{
+  width:1100px;
+  height:635px;
+  position:absolute;
+  
+  top:0px;
+}
+#sgame{
+  width:350px;
+  height:100px;
+  border-radius:25px;
+  position: absolute;
+  background-color:black;
+  color:white;
+  top:950px;
+  left:350px;
+  border:2px solid black;
+  font-size:45px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bolder;
+}
+#win{
+  width:350px;
+  height:100px;
+  border-radius:25px;
+  position: absolute;
+  background-color:black;
+  color:white;
+  top:1150px;
+  left:350px;
+  border:2px solid black;
+  font-size:45px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bolder;
+}
+#kab{
+  color:black;
+  font-weight:bolder;
+  font-size:75px;
+  position: absolute;
+  left:165px;
+  top:-15px;
+  text-decoration:underline;
+}
+#list{
+  width:850px;
+  font-weight:bolder;
+  position:absolute;
+  top:120px;
+  left:50px;
+  color:black;
+  font-size:35px;
+}
+#pback2{
+  width:80px;
+  height:80px;
+  border-radius:100px;
+  font-size:50px;
+  border:2px solid black;
+  background-color:black;
+  color:white;
+  font-weight:bolder;
+  position:absolute;
+  top:0px;
+  left:900px;
+}
+#r{
+  width:550px;
+  position:absolute;
+  top:900px;
+  left:175px;
+  font-size:65px;
+ font-weight:bolder;
+ color:black;
+}
+#sel{
+  position:absolute;
+  top:970px;
+  left:605px;
+  width:250px;
+  height:50px;
+  font-size:35px;
+  font-weight:bolder;
+  border-radius:25px;
+  color:white;
+  background-color: black;
+  border:2px solid black;
+  outline:none;
+}
+#re{
+  width:550px;
+  position:absolute;
+  top:1050px;
+  left:175px;
+ font-weight:bolder;
+ font-size:65px;
+ color:black;
+}
+#f{
+  position:absolute;
+  top:1120px;
+  left:605px;
+  width:250px;
+  height:50px;
+  font-size:35px;
+  font-weight:bolder;
+  border-radius:25px;
+  color:white;
+  background-color: black;
+  border:2px solid black;
+  outline: none;
+}
+#rp{
+  width:550px;
+  position:absolute;
+  top:1200px;
+  left:65px;
+ font-weight:bolder;
+ font-size:65px;
+ color:black;
+}
+#hh{
+  position:absolute;
+  top:1270px;
+  left:605px;
+  width:250px;
+  height:50px;
+  font-size:35px;
+  font-weight:bolder;
+  border-radius:25px;
+  color:white;
+  background-color: black;
+  border:2px solid black;
+  outline:none;
+}
+#bn{
+  width:200px;
+  height:50px;
+  background-color: black;
+  color:white;
+  border-radius:25px;
+  border:2px solid black;
+  font-size:35px;
+  font-weight:bolder;
+  position:absolute;
+  top:1525px;
+  left:450px;
+}
+#anuj{
+  color:black;
+  font-size:65px;
+  text-decoration:underline;
+  text-underline-offset:15px;
+  position:absolute;
+  left:85px;
+}
+#plaer{
+  display:flex;
+  flex-direction:row;
+  gap:40px;
+  flex-wrap:wrap;
+  position:absolute;
+  top:220px;
+  left:90px;
+}
+#plaer img{
+  width:230px;
+  height:250px;
+}
+#pic{
+  width:230px;
+  height:250px;
+  position:absolute;
+  left:350px;
+  top:1450px;
+  background-color:green;
+}
+#s{
+  width:150px;
+  height:50px;
+  color:white;
+  background-color:black;
+  border:2px solid black;
+  border-radius:25px;
+  font-size:25px;
+  font-weight:bolder;
+  position:absolute;
+  top:1530px;
+  left:115px;
+}
+#b{
+  width:150px;
+  height:50px;
+  color:white;
+  background-color:black;
+  border:2px solid black;
+  border-radius:25px;
+  font-size:25px;
+  font-weight:bolder;
+  position:absolute;
+  top:1530px;
+  left:660px;
+}
+#player{
+  width:940px;
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+  flex-wrap:wrap;
+  position:absolute;
+  top:25px;
+  left:20px;
+}
+#player img,#computer img{
+  width:180px;
+  height:200px;
+}
+#computer{
+  width:940px;
+  display:flex;
+  flex-direction:row;
+  gap:10px;
+  flex-wrap:wrap;
+  position:absolute;
+  top:1350px;
+  left:20px;
+}
+#toss{
+  width:455px;
+  height:455px;
+  border-radius:100%;
+  position: absolute;
+  background-color:black;
+  color:white;
+  top:650px;
+  left:250px;
+  border:2px solid black;
+  font-size:105px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bolder;
+}
+}

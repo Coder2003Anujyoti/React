@@ -5,7 +5,8 @@ import Ben from "./Ben.js";
 import Pok from "./Pok.js";
 import Power from "./Power.js";
 import Aselect from "./Aselect.js";
-import "./Angry.css";
+import Sel from './Sel.js';
+import "./Angries.css";
 const buttons=[1,2,3,4,5,6];
 const Angry=({option,pteam,cteam,pname,cname,psteam,csteam,pvalue,cvalue})=>{
   const [plsteam,setPlsteam]=useState([]);
@@ -302,6 +303,8 @@ const [ppoint,setPpoint]=useState(0);
   }
   return(
     <>
+      
+       <meta name="viewport" content= "width=device-width, user-scalable=no" />
     <div>
     { (co!=option)  && (birds.length!==0)  && (pl!=option) && (pigs.length!=0) && subc==false && toggle==false && disable==false && count>0  && <button id="subs" onClick={()=>setToggle(true)}>Substitution</button>}
       {  disable==false && toggle==true &&  <>
@@ -373,7 +376,7 @@ buttons.map((i)=>{
  </h2>
  <button id="restart" onClick={restart}>Restart</button>
  <button id="player-score" onClick={()=>setPback(!pback)}>{pname}(You) Details</button>
- <button id="computer-score" onClick={()=>setCback(!cback)}>{cname}(You) Details</button>
+ <button id="computer-score" onClick={()=>setCback(!cback)}>{cname}(Com) Details</button>
  </>
 }
 {((co==option) || (birds.length==0) ) &&
