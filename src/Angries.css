@@ -1,12 +1,20 @@
-
+*{
+  background-color:dodgerblue;
+ color:white;
+}
+body{
+  overflow-x:hidden;
+  scroll-behavior:smooth;
+  background-color:#ffffff;
+}
+img{
+  background-color:transparent;
+}
 #ang{
   width:100vw;
   position:absolute;
-  left:0px;
+  left:0vw;
   top:35vh;
-  color:black;
-  text-decoration:underline;
-  text-underline-offset:10px;
   color:white;
   font-size:8vw;
 }
@@ -19,21 +27,11 @@
   color:white;
   font-weight:bolder;
   position:absolute;
-  top:0px;
-  left:0px;
-}
-#up{
-  background-color:black;
-  color:white;
-  border:2px solid black;
-  position:absolute;
-  top:798px;
-  font-weight:bolder;
-  left:325px;
-}
-#f{
-  position:absolute;
-  top:560px;
+  top:0vh;
+  left:0vw;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 #hh{
   position:absolute;
@@ -48,6 +46,9 @@
   background-color: black;
   border:1vw solid black;
   outline:none;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 #bn{
   width:25vw;
@@ -61,10 +62,9 @@
   position:absolute;
   top:85vh;
   left:39vw;
-}
-#hr{
-  position:absolute;
-  top:950px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 #re{
   width:55vw;
@@ -73,7 +73,7 @@
   left:20vw;
   font-size:6.8vw;
  font-weight:bolder;
- color:white;
+ 
 }
 #f{
   position:absolute;
@@ -88,6 +88,9 @@
   background-color: black;
   border:1vw solid black;
   outline: none;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 #rp{
   width:65vw;
@@ -96,7 +99,7 @@
   left:9vw;
   font-size:6.8vw;
  font-weight:bolder;
- color:white;
+ 
 }
 #r{
   width:55vw;
@@ -105,15 +108,14 @@
   left:20vw;
   font-size:6.8vw;
  font-weight:bolder;
- color:white;
+ 
 }
 #g{
   width:100vw;
   height:35vh;
   position:absolute;
-  top:0px;
-  left:0px;
-  overflow-x:hidden;
+  top:0vh;
+  left:0vw;
 }
 #sel{
   position:absolute;
@@ -132,42 +134,26 @@
 #pli{
   width:15vw;
   height:10vh;
+  transition: transform 0.3s ease-in-out;
+&:hover{
+  transform:scale(1.1);
 }
-body{
-  background-color:dodgerblue;
-  overflow-x:hidden;
 }
 #cli{
   width:15vw;
   height:10vh;
+  transition: transform 0.3s ease-in-out;
+&:hover{
+  transform:scale(1.1);
+}
 }
 #eli{
   width:15vw;
   height:10vh;
+  transition: transform 0.3s ease-in-out;
+&:hover{
+  transform:scale(1.1);
 }
-#lis{
-  width:60px;
-  height:80px;
-  position:relative;
-  top:0px;
-}
-
-#psli{
-  width:50px;
-  height:70px;
-}
-#sus{
-  width:80px;
-  height:30px;
-  color:white;
-  background-color:black;
-  border:2px solid black;
-  border-radius:25px;
-  font-size:15px;
-  font-weight:bolder;
-  position:absolute;
-  top:120px;
-  left:235px;
 }
 #ppo{
   position:absolute;
@@ -175,7 +161,7 @@ body{
   left:8vw;
   font-size:7vw;
   font-weight:bolder;
-  color:white;
+  
 }
 #cpo{
   position:absolute;
@@ -183,10 +169,10 @@ body{
   left:63vw;
   font-size:7vw;
   font-weight:bolder;
-  color:white;
+  
 }
 #anuj{
-  color:white;
+  
   font-size:7vw;
   text-decoration:underline;
   text-underline-offset:2vw;
@@ -199,6 +185,10 @@ body{
   position:absolute;
   left:25vw;
   top:40vh;
+  transition: transform 0.3s ease-in-out;
+&:hover{
+  transform:scale(1.1);
+}
 }
 #b{
   width:25vw;
@@ -212,19 +202,6 @@ body{
   position:absolute;
   top:75vh;
   left:53vw;
-}
-#start{
-  width:80px;
-  height:30px;
-  color:white;
-  background-color:black;
-  border:2px solid black;
-  border-radius:25px;
-  font-size:15px;
-  font-weight:bolder;
-  position:absolute;
-  top:570px;
-  left:135px;
 }
 #s{
   width:25vw;
@@ -299,11 +276,17 @@ body{
   position:relative;
   top:-1vh;
   font-weight:bolder;
+  font-size:4.5vw;
+  color:white;
+  background-color:transparent;
 }
 #cdef{
   position:relative;
   top:-2.5vh;
   font-weight:bolder;
+  font-size:4.5vw;
+  color:white;
+  background-color:transparent;
 }
 #plaer{
   display:flex;
@@ -317,6 +300,10 @@ body{
 #plaer img{
   width:14vw;
   height:10vh;
+  transition: transform 0.3s ease-in-out;
+&:hover{
+  transform:scale(1.1);
+}
 }
 #player{
   display:flex;
@@ -344,6 +331,7 @@ body{
   border-radius:5vw;
 }
 #psubsh{
+  background-color:transparent;
   color:white;
   font-size:7vw;
   position:absolute;
@@ -354,6 +342,10 @@ body{
 #psubs img{
   width:30vw;
   height:16vh;
+  transition: transform 0.3s ease-in-out;
+&:hover{
+  transform:scale(1.1);
+}
 }
 #ppli{
   width:33vw;
@@ -369,14 +361,6 @@ body{
   top:28vh;
   left:60vw;
 }
-#ct{
-  color:white;
-  position: absolute;
-  top:-20px;
-  left:160px;
-  font-size:20px;
-  z-index:1;
-}
 #head{
   font-family:cursive,serif;
   font-weight:bolder;
@@ -384,33 +368,32 @@ body{
   top:35vh;
   left:44vw;
   font-size:8vw;
-  color:white;
-}
-#gh{
-  position: absolute;
-  top:700px;
 }
 #omp{
   position: absolute;
-  left:62vw;
-  top:21vh;
+  left:60.5vw;
+  top:21.6vh;
   font-size:6vw;
-  color:white;
 }
 #ay{
   position: absolute;
-  left:8vw;
-  top:21vh;
+  left:6vw;
+  top:21.6vh;
   font-size:6vw;
-  color:white;
 }
 #play-pt{
   position:absolute;
   top:45vh;
   left:20vw;
   font-size:10vw;
-  color:white;
   font-weight:bolder;
+}
+#winet{
+  position:absolute;
+  top:47vh;
+  left:38vw;
+  font-weight:bolder;
+  font-size:5vw;
 }
 #comp-pt{
   position:absolute;
@@ -418,29 +401,12 @@ body{
   left:75vw;
   font-size:10vw;
   font-weight:bolder;
-  color:white;
-}
-#yw{
-  width:250px;
-  height:150px;
-  background-color:black;
-  color:white;
-  position:absolute;
-  top:200px;
-  left:55px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-size:35px;
-  font-weight:bolder;
-  border-radius:25px;
 }
 #est{
   position: absolute;
   left:45vw;
   top:30vh;
   font-size:6vw;
-  color:white;
 }
 #restart{
   width:20vw;
@@ -471,22 +437,6 @@ body{
   align-items:center;
   font-weight:bolder;
 }
-#wins{
-  width:130px;
-  height:30px;
-  border-radius:25px;
-  position: absolute;
-  background-color:black;
-  color:white;
-  top:450px;
-  left:110px;
-  border:2px solid black;
-  font-size:20px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-weight:bolder;
-}
 #win{
   width:45vw;
   height:5vh;
@@ -497,16 +447,11 @@ body{
   top:58vh;
   left:30vw;
   border:2vw solid black;
-  font-size:6vw;
+  font-size:5vw;
   display:flex;
   justify-content:center;
   align-items:center;
   font-weight:bolder;
-}
-#select-contain{
-  width:250px;
-  position:absolute;
-  top:-25px;
 }
 #sgame{
   width:45vw;
@@ -518,62 +463,50 @@ body{
   top:50vh;
   left:30vw;
   border:2vw solid black;
-  font-size:6vw;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-weight:bolder;
-}
-#comm{
-  width:130px;
-  height:30px;
-  border-radius:25px;
-  position: absolute;
-  background-color:black;
-  color:white;
-  top:550px;
-  left:110px;
-  border:2px solid black;
-  font-size:19px;
+  font-size:5vw;
   display:flex;
   justify-content:center;
   align-items:center;
   font-weight:bolder;
 }
 #kab{
-  color:white;
   font-weight:bolder;
   font-size:7vw;
   position: absolute;
   left:25vw;
-  top:-2vh;
+  top:-1vh;
   text-decoration:underline;
 }
 #list{
-  width:85vw;
-  height:50vh;
+  width:88vw;
+  height:10vh;
   font-weight:bolder;
   position:absolute;
-  top:6vh;
-  left:0vw;
+  top:7vh;
+  left:1vw;
   color:white;
-  font-size:3.5vw;
+  font-size:4vw;
+}
+#list p{
+  position:relative;
+  top:-1vh;
+  left:5vw;
 }
 #fet{
   position:absolute;
   top:47vh;
-  left:36vw;
+  left:35vw;
   font-weight:bolder;
-  font-size:5vw;
-  color:white;
+  font-size:6vw;
+  
 }
 #ret{
   position:absolute;
   top:47vh;
-  left:39vw;
+  left:38vw;
   font-weight:bolder;
-  font-size:5vw;
-  color:white;
+  font-size:6vw;
+  
 }
 #rd{
   position:absolute;
@@ -638,1023 +571,4 @@ body{
   position:absolute;
   top:60vh;
   left:55vw;
-}
-@media (min-width:650px){
-  #ppli{
-  width:230px;
-  height:250px;
-  position:absolute;
-  top:600px;
-  left:130px;
-}
-#cpli{
-  width:230px;
-  height:250px;
-  position:absolute;
-  top:600px;
-  left:600px;
-}
-  #omp{
-  position: absolute;
-  font-size:35px;
-  left:615px;
-  top:500px;
-  color:black;
-}
-#ay{
-  position: absolute;
-  font-size:35px;
-  left:150px;
-  top:500px;
-  color:black;
-}
-  #ang{
-  width:1050px;
-  position:absolute;
-  left:0px;
-  top:680px;
-  text-decoration:underline;
-  text-underline-offset:10px;
-  color:black;
-  font-size:60px;
-}
-#rd{
-  position:absolute;
-  top:1020px;
-  left:160px;
-  display:flex;
-  gap:20px;
-  flex-direction:row;
-}
-#head{
-  font-weight:bolder;
-  font-size:45px;
-  position:absolute;
-  top:700px;
-  left:450px;
-  color:black;
-}
-#play-pt{
-  position:absolute;
-  top:820px;
-  left:230px;
-  font-size:50px;
-  color:black;
-  font-weight:bolder;
-}
-#comp-pt{
-  position:absolute;
-  top:820px;
-  left:700px;
-  font-size:50px;
-  font-weight:bolder;
-  color:black;
-}
-#fet{
-  position:absolute;
-  top:750px;
-  left:400px;
-  font-weight:bolder;
-  font-size:30px;
-  color:black;
-}
-#ret{
-  position:absolute;
-  top:750px;
-  left:425px;
-  font-weight:bolder;
-  font-size:30px;
-  color:black;
-}
-#est{
-  position: absolute;
-  left:455px;
-  top:600px;
-  font-size:25px;
-  font-size:40px;
-  color:black;
-}
-#but{
-  width:95px;
-  height:95px;
-  border-radius:100px;
-  font-size:60px;
-  border:2px solid black;
-  background-color:black;
-  color:white;
-  font-weight:bolder;
-}
-#ppo{
-  position:absolute;
-  top:880px;
-  left:180px;
-  font-size:35px;
-  font-weight:bolder;
-  color:black;
-}
-#cpo{
-  position:absolute;
-  top:880px;
-  left:645px;
-  font-size:35px;
-  font-weight:bolder;
-  color:black;
-}
-#subs{
-  width:250px;
-  height:50px;
-  color:white;
-  background-color:black;
-  border:2px solid black;
-  border-radius:25px;
-  font-size:30px;
-  font-weight:bolder;
-  position:absolute;
-  top:1010px;
-  left:350px;
-}
-#psubs{
-  width:400px;
-  height:400px;
-  display:flex;
-  flex-direction: row;
-  gap:30px;
-  justify-content:center;
-  align-items:center;
-  flex-wrap:wrap;
-  position:absolute;
-  top:550px;
-  left:255px;
-  background-color:black;
-  z-index:1;
-  border-radius:25px;
-}
-#psubs img{
-  width:130px;
-  height:150px;
-}
-#psubsh{
-  color:white;
-  position:absolute;
-  top:0px;
-  font-size: 36px;
-  left:67px;
-  z-index:1;
-}
-#ssubs{
-  width:200px;
-  height:50px;
-  color:black;
-  background-color:white;
-  border:2px solid white;
-  border-radius:25px;
-  font-size:30px;
-  font-weight:bolder;
-  position:absolute;
-  top:310px;
-  left:100px;
-}
-#restart{
-  width:250px;
-  height:50px;
-  position:absolute;
-  top:1010px;
-  left:350px;
-  border-radius:25px;
-  background-color:black;
-  color:white;
-  font-size:35px;
-  font-weight:bolder;
-  border:2px solid black;
-}
-#player-score{
-  width:250px;
-  height:50px;
-  border-radius:25px;
-  font-size:25px;
-  border:2px solid black;
-  background-color:black;
-  color:white;
-  font-weight:bolder;
-  position:absolute;
-  top:1100px;
-  left:230px;
-}
-#computer-score{
-  width:250px;
-  height:50px;
-  border-radius:25px;
-  font-size:25px;
-  border:2px solid black;
-  background-color:black;
-  color:white;
-  font-weight:bolder;
-  position:absolute;
-  top:1100px;
-  left:500px;
-}
-#claer
-{ width:805px;
- height:505px;
-  background-color:black;
-  color:white;
-  display:flex;
-  justify-content:center;
-  flex-direction:row;
-  gap:5px;
-  flex-wrap:wrap;
-  position:absolute;
-  top:500px;
-  left:100px;
-  border-radius:0px;
-  border:2px solid black;
-}
-#pback{
-  width:90px;
-  height:90px;
-  border-radius:100px;
-  font-size:60px;
-  border:2px solid black;
-  background-color:black;
-  color:white;
-  font-weight:bolder;
-  position:absolute;
-  top:1200px;
-  left:435px;
-}
-#claer img{
-  width:130px;
-  height:150px;
-}
-body{
-  background-color: aqua;
- overflow:hidden;
-}
-#g{
-  width:1100px;
-  height:635px;
-  position:absolute;
-  top:0px;
-}
-#sgame{
-  width:350px;
-  height:100px;
-  border-radius:25px;
-  position: absolute;
-  background-color:black;
-  color:white;
-  top:950px;
-  left:350px;
-  border:2px solid black;
-  font-size:45px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-weight:bolder;
-}
-#win{
-  width:350px;
-  height:100px;
-  border-radius:25px;
-  position: absolute;
-  background-color:black;
-  color:white;
-  top:1150px;
-  left:350px;
-  border:2px solid black;
-  font-size:45px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-weight:bolder;
-}
-#kab{
-  color:black;
-  font-weight:bolder;
-  font-size:75px;
-  position: absolute;
-  left:165px;
-  top:-15px;
-  text-decoration:underline;
-}
-#list{
-  width:850px;
-  font-weight:bolder;
-  position:absolute;
-  top:120px;
-  left:50px;
-  color:black;
-  font-size:35px;
-}
-#pback2{
-  width:80px;
-  height:80px;
-  border-radius:100px;
-  font-size:50px;
-  border:2px solid black;
-  background-color:black;
-  color:white;
-  font-weight:bolder;
-  position:absolute;
-  top:0px;
-  left:900px;
-}
-#r{
-  width:550px;
-  position:absolute;
-  top:900px;
-  left:175px;
-  font-size:65px;
- font-weight:bolder;
- color:black;
-}
-#sel{
-  position:absolute;
-  top:970px;
-  left:605px;
-  width:250px;
-  height:50px;
-  font-size:35px;
-  font-weight:bolder;
-  border-radius:25px;
-  color:white;
-  background-color: black;
-  border:2px solid black;
-  outline:none;
-}
-#re{
-  width:550px;
-  position:absolute;
-  top:1050px;
-  left:175px;
- font-weight:bolder;
- font-size:65px;
- color:black;
-}
-#f{
-  position:absolute;
-  top:1120px;
-  left:605px;
-  width:250px;
-  height:50px;
-  font-size:35px;
-  font-weight:bolder;
-  border-radius:25px;
-  color:white;
-  background-color: black;
-  border:2px solid black;
-  outline: none;
-}
-#rp{
-  width:550px;
-  position:absolute;
-  top:1200px;
-  left:65px;
- font-weight:bolder;
- font-size:65px;
- color:black;
-}
-#hh{
-  position:absolute;
-  top:1270px;
-  left:605px;
-  width:250px;
-  height:50px;
-  font-size:35px;
-  font-weight:bolder;
-  border-radius:25px;
-  color:white;
-  background-color: black;
-  border:2px solid black;
-  outline:none;
-}
-#bn{
-  width:200px;
-  height:50px;
-  background-color: black;
-  color:white;
-  border-radius:25px;
-  border:2px solid black;
-  font-size:35px;
-  font-weight:bolder;
-  position:absolute;
-  top:1525px;
-  left:450px;
-}
-#anuj{
-  color:black;
-  font-size:65px;
-  text-decoration:underline;
-  text-underline-offset:15px;
-  position:absolute;
-  left:85px;
-}
-#plaer{
-  display:flex;
-  flex-direction:row;
-  gap:40px;
-  flex-wrap:wrap;
-  position:absolute;
-  top:220px;
-  left:90px;
-}
-#plaer img{
-  width:230px;
-  height:250px;
-}
-#pic{
-  width:230px;
-  height:250px;
-  position:absolute;
-  left:350px;
-  top:1450px;
-  background-color:green;
-}
-#s{
-  width:150px;
-  height:50px;
-  color:white;
-  background-color:black;
-  border:2px solid black;
-  border-radius:25px;
-  font-size:25px;
-  font-weight:bolder;
-  position:absolute;
-  top:1530px;
-  left:115px;
-}
-#b{
-  width:150px;
-  height:50px;
-  color:white;
-  background-color:black;
-  border:2px solid black;
-  border-radius:25px;
-  font-size:25px;
-  font-weight:bolder;
-  position:absolute;
-  top:1530px;
-  left:660px;
-}
-#player{
-  width:940px;
-  display:flex;
-  flex-direction: row;
-  gap:10px;
-  flex-wrap:wrap;
-  position:absolute;
-  top:25px;
-  left:20px;
-}
-#player img,#computer img{
-  width:180px;
-  height:200px;
-}
-#computer{
-  width:940px;
-  display:flex;
-  flex-direction:row;
-  gap:10px;
-  flex-wrap:wrap;
-  position:absolute;
-  top:1350px;
-  left:20px;
-}
-#toss{
-  width:455px;
-  height:455px;
-  border-radius:100%;
-  position: absolute;
-  background-color:black;
-  color:white;
-  top:650px;
-  left:250px;
-  border:2px solid black;
-  font-size:105px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-weight:bolder;
-}
-}
-@media (min-width:1000px)
-{
-  body{
-    background-color:dodgerblue;
-    overflow: hidden;
-  }
-  #g{
-    width:640px;
-    height:420px;
-    position:absolute;
-    top:150px;
-    left:30px;
-    opacity:1;
-    
-  }
-  #ang{
-    width:1250px;
-    position:absolute;
-    left:0px;
-    top:0px;
-    text-decoration:underline;
-    text-underline-offset:10px;
-    color:white;
-    font-size:60px;
-    
-  }
-  #sgame{
-    width:350px;
-    height:100px;
-    border-radius:25px;
-    position: absolute;
-    background-color:white;
-    color:black;
-    top:350px;
-    left:900px;
-    border:2px solid white;
-    font-size:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bolder;
-    z-index:1;
-  }
-  #win{
-    width:350px;
-    height:100px;
-    border-radius:25px;
-    position: absolute;
-    background-color:white;
-    color:black;
-    top:200px;
-    left:900px;
-    border:2px solid white;
-    font-size:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bolder;
-  }
-  #kab{
-    color:black;
-    font-weight:bolder;
-    position: absolute;
-    left:455px;
-    top:-10px;
-    text-decoration:underline;
-    font-size:45px;
-  }
-  #list{
-    width:1250px;
-    font-weight:bolder;
-    font-size:20px;
-    position:absolute;
-    top:80px;
-    left:0px;
-    color:black;
-  }
-  #pback2{
-    width:50px;
-    height:50px;
-    border-radius:100px;
-    font-size:30px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:570px;
-    left:600px;
-  }
-  #sel{
-    position:absolute;
-    top:277px;
-    left:1050px;
-    width:150px;
-    height:50px;
-    font-size:25px;
-    font-weight:bolder;
-    border-radius:25px;
-    color:white;
-    background-color: black;
-    border:2px solid black;
-    outline:none;
-  }
-  #hh{
-    position:absolute;
-    top:477px;
-    left:1050px;
-    width:150px;
-    height:50px;
-    font-size:25px;
-    font-weight:bolder;
-    border-radius:25px;
-    color:white;
-    background-color: black;
-    border:2px solid black;
-    outline:none;
-  }
-  #f{
-    position:absolute;
-    top:379px;
-    left:1050px;
-    width:150px;
-    height:50px;
-    font-size:25px;
-    font-weight:bolder;
-    border-radius:25px;
-    color:white;
-    background-color: black;
-    border:2px solid black;
-    outline: none;
-  }
-  #re{
-    width:345px;
-    position:absolute;
-    top:340px;
-    left:780px;
-   font-weight:bolder;
-   color:white;
-   font-size: 40px;
-  }
-  #rp{
-    width:345px;
-    position:absolute;
-    top:439px;
-    left:710px;
-   font-weight:bolder;
-   color:white;
-   font-size: 40px;
-  }
-  #r{
-    width: 345px;
-    position:absolute;
-    top:239px;
-    left:780px;
-   font-weight:bolder;
-   color:white;
-   font-size:40px;
-  }
-  #bn{
-    width:150px;
-    height:50px;
-    background-color: black;
-    color:white;
-    border-radius:25px;
-    border:2px solid black;
-    font-size:25px;
-    font-weight:bolder;
-    position:absolute;
-    top:585px;
-    left:950px;
-  }
-  #anuj{
-    color:black;
-    font-size:45px;
-    text-decoration:underline;
-    text-underline-offset:10px;
-    position:absolute;
-    left:455px;
-  }
-  #plaer{
-    display:flex;
-    flex-direction:row;
-    gap:20px;
-    flex-wrap:wrap;
-    position:absolute;
-    top:120px;
-    left:60px;
-  }
-  #plaer img{
-    width:130px;
-    height:150px;
-  }
-  #lis{
-    width:120px;
-    height:140px;
-    position:relative;
-    top:0px;
-  }
-  #pic{
-    width:230px;
-    height:250px;
-    position:absolute;
-    left:890px;
-    top:300px;
-    background-color:green;
-  }
-  #b{
-    width:100px;
-    height:30px;
-    color:white;
-    background-color:black;
-    border:2px solid black;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:570px;
-    left:1020px;
-  }
-  #s{
-    width:100px;
-    height:30px;
-    color:white;
-    background-color:black;
-    border:2px solid black;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:570px;
-    left:900px;
-  }
-  #computer{
-    width:1740px;
-    display:flex;
-    flex-direction:row;
-    gap:15px;
-    flex-wrap:wrap;
-    position:absolute;
-    top:510px;
-    left:15px;
-  }
-  #computer img,#player img {
-    width:120px;
-    height:140px;
-
-  }
-  #pli{
-    width:100px;
-    height:120px;
-    position:relative;
-    top:20px;
-  
-  }
-  #cli{
-    width:100px;
-    height:120px;
-    position:relative;
-    top:-20px;
-  }
-  #player{
-    width:1740px;
-    display:flex;
-    flex-direction: row;
-    gap:15px;
-    flex-wrap:wrap;
-    position:absolute;
-    top:-10px;
-    left:15px;
-  }
-  #toss{
-    width:155px;
-    height:155px;
-    border-radius:100%;
-    position: absolute;
-    background-color:black;
-    color:white;
-    top:220px;
-    left:600px;
-    border:2px solid black;
-    font-size:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bolder;
-  }
-  #omp{
-    position: absolute;
-    left:800px;
-    top:130px;
-    color:white;
-    font-size:30px;
-    font-weight:bolder;
-  }
-  #ay{
-    position: absolute;
-    left:350px;
-    top:130px;
-    font-size:30px;
-    color:white;
-  }
-  #ppli{
-    width:130px;
-    height:150px;
-    position:absolute;
-    top:205px;
-    left:350px;
-  }
-  #cpli{
-    width:130px;
-    height:150px;
-    position:absolute;
-    top:205px;
-    left:800px;
-   
-  }
-  #head{
-    font-family:cursive,serif;
-    font-weight:bolder;
-    position:absolute;
-    top:190px;
-    left:580px;
-    color:white;
-  }
-  #est{
-    position: absolute;
-    left:590px;
-    top:160px;
-    font-size:35px;
-    color:white;
-  }
-  #fet{
-    position:absolute;
-    top:250px;
-    left:540px;
-    font-weight:bolder;
-    font-size:30px;
-    color:white;
-  }
-  #ret{
-    position:absolute;
-    top:250px;
-    left:550px;
-    font-weight:bolder;
-    font-size:30px;
-    color:white;
-  }
-  #play-pt{
-    position:absolute;
-    top:330px;
-    left:400px;
-    font-size:35px;
-    color:white;
-    font-weight:bolder;
-  }
-  #comp-pt{
-    position:absolute;
-    top:330px;
-    left:850px;
-    font-size:35px;
-    font-weight:bolder;
-    color:white;
-  }
-  #ppo{
-    position:absolute;
-    top:350px;
-    left:350px;
-    font-size:30px;
-    font-weight:bolder;
-    color:white;
-  }
-  #cpo{
-    position:absolute;
-    top:350px;
-    left:800px;
-    font-size:30px;
-    font-weight:bolder;
-    color:white;
-  }
-  #subs{
-    width:150px;
-    height:30px;
-    color:white;
-    background-color:black;
-    border:2px solid black;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:400px;
-    left:550px;
-  }
-  #rd{
-    position:absolute;
-    top:400px;
-    left:460px;
-    display:flex;
-    gap:4px;
-    flex-direction:row;
-  }
-  #but{
-    width:55px;
-    height:55px;
-    border-radius:100px;
-    font-size:30px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-  }
-  #psubs{
-    width:400px;
-    height:300px;
-    display:flex;
-    flex-direction: row;
-    gap:30px;
-    justify-content: center;
-    align-items:center;
-    flex-wrap:wrap;
-    position:absolute;
-    top:150px;
-    left:425px;
-    background-color:black;
-    z-index:1;
-    border-radius:25px;
-  }
-  #psubsh{
-    color:white;
-    position:absolute;
-    top:20px;
-    font-size:25px;
-    left:97px;
-    z-index:1;
-  }
-  #ssubs{
-    width:120px;
-    height:30px;
-    color:black;
-    background-color:white;
-    border:2px solid white;
-    border-radius:25px;
-    font-size:20px;
-    font-weight:bolder;
-    position:absolute;
-    top:260px;
-    left:130px;
-  }
-  #restart{
-    width:100px;
-    height:30px;
-    position:absolute;
-    top:340px;
-    left:570px;
-    border-radius:25px;
-    background-color:black;
-    color:white;
-    font-size:20px;
-    font-weight:bolder;
-    border:2px solid black;
-  }
-  #player-score{
-    width:250px;
-    height:30px;
-    border-radius:25px;
-    font-size:15px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:390px;
-    left:500px;
-  }
-  #computer-score{
-    width:250px;
-    height:30px;
-    border-radius:25px;
-    font-size:15px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:430px;
-    left:500px;
-  }
-  #claer{
-    height:380px;
-    width:560px;
-     background-color:black;
-     color:white;
-     display:flex;
-     justify-content:center;
-     flex-direction:row;
-     gap:10px;
-     flex-wrap:wrap;
-     position:absolute;
-     top:140px;
-     left:360px;
-     border-radius:0px;
-     border:2px solid black;
-   }
-   #claer img{
-    width:80px;
-    height:100px;
-   }
-   #pback{
-    width:50px;
-    height:50px;
-    border-radius:100px;
-    font-size:30px;
-    border:2px solid black;
-    background-color:black;
-    color:white;
-    font-weight:bolder;
-    position:absolute;
-    top:540px;
-    left:620px;
-  }
 }

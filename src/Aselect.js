@@ -122,8 +122,7 @@ const Aselect=()=>{
     <meta name="viewport" content= "width=device-width, user-scalable=no" />
     { ok===false && rule==false && about==false  && comment==false &&
     <>
- <h1 id="ang"><marquee 
-                 direction="left">Vivo Kabaddi Game</marquee></h1>
+ <h1 id="ang"><marquee direction="left">Vivo Kabaddi Game</marquee></h1>
   <img src="images/Anu.jpg" id="g"></img>
   {start===true &&
   <>
@@ -168,21 +167,21 @@ const Aselect=()=>{
 {ok==false && rule==true && about==false && comment===false &&
 <>
   <h2 id="kab">Rules of Kabaddi</h2>
-  <ol id="list">
-    <li>Select the Maximum Points,Player team and Computer team.</li>
-    <li>Select 10 players out of 12 players from Player team and the remaining 2 players are substitution options.</li>
-    <li>Toss first and the upper part represents player team while the lower part represents computer team
-     .</li>
-     <li>Select any 1 player from the above list.After selecting ,option shows whether you have to raid or defence and the buttons appear on your screen.</li>
-     <li>For a successful raid you choose a number such that the sum of your choice and computer choice gives odd value and For a successful defence you choose a number such that the sum of your and computer choice gives even value.</li>
-     <li>For a successful raid/defence your/computer team will be awarded with 1 point and also revive a player who become out due to unsucessful attempt of raid/defence.</li>
-     <li>For an unsuccessful raid/defence,no points are awarded to your/computer team as well as that particular player got out from the playing field and waiting for the other players to revive him after attempting successful raid/defence.</li>
-     <li>You/computer can also substitute any 1 player with the player from the substitution bench but for only one time.Substitution is possible after the 1st raid/defence attempt by your/computer team and before winning the match by your/computer team.</li>
-     <li>For doing Substitution,you need to click on the picture of player in substitution bench and then click on the player which you want to replace with that.</li>
-     <li>You/computer win the match either by achieving the maximum points or out all the players of opposition team. </li>
+  <div id="list">
+    <p>1.Select the Maximum Points,Player team and Computer team.</p>
+    <p>2.Select 10 players out of 12 players from Player team and the remaining 2 players are substitution options.</p>
+    <p>3.Toss first and the upper part represents player team while the lower part represents computer team
+     .</p>
+     <p>4.Select any 1 player from the above list.After selecting ,option shows whether you have to raid or defence and the buttons appear on your screen.</p>
+     <p>5.For a successful raid you choose a number such that the sum of your choice and computer choice gives odd value and For a successful defence you choose a number such that the sum of your and computer choice gives even value.</p>
+     <p>6.For a successful raid/defence your/computer team will be awarded with 1 point and also revive a player who become out due to unsucessful attempt of raid/defence.</p>
+     <p>7.For an unsuccessful raid/defence,no points are awarded to your/computer team as well as that particular player got out from the playing field and waiting for the other players to revive him after attempting successful raid/defence.</p>
+     <p>8.You/computer can also substitute any 1 player with the player from the substitution bench but for only one time.Substitution is possible after the 1st raid/defence attempt by your/computer team and before winning the match by your/computer team.</p>
+     <p>9.For doing Substitution,you need to click on the picture of player in substitution bench and then click on the player which you want to replace with that.</p>
+     <p>10.You/computer win the match either by achieving the maximum points or out all the players of opposition team. </p>
     
-     <li>After the match is over you see the raid and defence points earned by each players of your/computer team.</li>
-  </ol>
+     <p>11.After the match is over you see the raid and defence points earned by each players of your/computer team.</p>
+  </div>
   <button id="pback2" onClick={()=>setRule(false)}>X</button>
   
   

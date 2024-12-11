@@ -371,7 +371,7 @@ buttons.map((i)=>{
 </div>
 {((pl==option) || (pigs.length==0) ) && pl!="" &&
 <>
- <h2 id="fet">
+ <h2 id="winet">
    {plname} win!!!
  </h2>
  <button id="restart" onClick={restart}>Restart</button>
@@ -382,7 +382,7 @@ buttons.map((i)=>{
 {((co==option) || (birds.length==0) ) &&
 co!="" &&
 <>
- <h2 id="fet">
+ <h2 id="winet">
    {clname} win!!!
  </h2>
   <button id="restart" onClick={restart}>Restart</button>
